@@ -1,11 +1,6 @@
 import { useState } from 'react'
-import Header from './components/Header'
-import FieldsetLength from './components/FieldsetLength';
-import FieldsetOptions from './components/FieldsetOptions';
-import './App.css'
 
-function App() {
-  
+function AllFunctions () {
   let passwordButtonText = "Generate Your Password";
   let securePassword = "Your Secure Password";
 
@@ -65,25 +60,7 @@ function App() {
       let passwordMessage = `please select 'options' above ^`;
       setPassword(passwordMessage);
     } 
-    
   }
-  
-  return (
-    <>
-      <Header/>
-      <main>
-        <h2>Generate a Password</h2>
-        <div className="password-options">
-          <FieldsetLength/>
-          <FieldsetOptions/>
-        </div>
-        <div className="divider" />
-        <section id="password-area" className="exported-password">{password}</section>
-        <div className="divider" />
-        <button onClick={() => {handleClick();}}>{text}</button>
-      </main>
-    </>
-  )
 }
 
-export default App
+export default AllFunctions;
