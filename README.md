@@ -15,6 +15,9 @@
     This project is a remake of my Full Stack Web Dev Bootcamp assignment '03-Javascript' redone in React. The project is a static HTML website leveraging Flexbox & allows the user to generate a password based on some options they choose. 
     <br />
     <br />
-    <a href="https://bretpeters3n.github.io/03-Javascript_Reactified/">View Demo</a>
+    <a href="https://bretpeters3n.github.io/03-Javascript_password-generator_Reactified/">View Demo</a>
   </p>
+  <br />
+  <br />
+![image](./src/assets/screenshot.png)
 </div>
