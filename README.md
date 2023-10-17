@@ -5,7 +5,7 @@
 <br />
 <div align="center">
 
-# 02-Advanced-CSS_Reactified
+# 03-Javascript_password-generator_Reactified
   <p align="center">
     <img src="https://img.shields.io/badge/VITE-purple"/>
     <img src="https://img.shields.io/badge/HTML-orange"/>
@@ -19,5 +19,9 @@
   </p>
   <br />
   <br />
+
+<!-- PREVIEW -->
+## Preview
 ![image](./src/assets/screenshot.png)
+
 </div>
